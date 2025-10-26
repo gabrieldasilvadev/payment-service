@@ -14,11 +14,11 @@ import br.com.postech.soat.payment.domain.entity.PaymentStatus;
 import br.com.postech.soat.payment.domain.valueobject.PaymentId;
 import br.com.postech.soat.payment.infrastructure.http.mapper.PaymentCommandMapper;
 import br.com.postech.soat.payment.infrastructure.http.mapper.PaymentMapper;
+import java.net.URI;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
-import java.net.URI;
 
 @RestController
 @RequiredArgsConstructor

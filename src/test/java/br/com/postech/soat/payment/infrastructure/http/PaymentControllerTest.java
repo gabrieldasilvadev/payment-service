@@ -7,6 +7,7 @@ import br.com.postech.soat.payment.application.usecases.GetPaymentStatusUseCase;
 import br.com.postech.soat.payment.application.usecases.InitiatePaymentUseCase;
 import br.com.postech.soat.payment.domain.entity.PaymentStatus;
 import br.com.postech.soat.payment.domain.valueobject.PaymentId;
+import java.util.UUID;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -16,8 +17,6 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-
-import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

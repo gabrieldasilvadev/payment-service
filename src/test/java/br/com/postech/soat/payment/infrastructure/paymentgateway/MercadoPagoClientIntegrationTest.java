@@ -6,7 +6,6 @@ import br.com.postech.soat.payment.domain.entity.Payment;
 import br.com.postech.soat.payment.domain.entity.PaymentMethod;
 import com.mercadopago.MercadoPagoConfig;
 import com.mercadopago.client.payment.PaymentClient;
-
 import com.mercadopago.exceptions.MPApiException;
 import com.mercadopago.net.MPHttpClient;
 import com.mercadopago.net.MPRequest;
