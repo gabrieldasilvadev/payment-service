@@ -1,7 +1,7 @@
 package br.com.postech.soat.payment.infrastructure.http.mapper;
 
-import br.com.postech.soat.openapi.model.GetPaymentsPaymentId200ResponseDto;
-import br.com.postech.soat.openapi.model.PaymentStatusDto;
+import br.com.postech.soat.payment.openapi.model.GetPaymentsPaymentId200ResponseDto;
+import br.com.postech.soat.payment.openapi.model.PaymentStatusDto;
 import br.com.postech.soat.payment.domain.entity.Payment;
 import java.time.Instant;
 import java.time.OffsetDateTime;

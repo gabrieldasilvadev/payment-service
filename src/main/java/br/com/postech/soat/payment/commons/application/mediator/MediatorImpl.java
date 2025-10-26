@@ -1,10 +1,10 @@
-package br.com.postech.soat.commons.application.mediator;
+package br.com.postech.soat.payment.commons.application.mediator;
 
-import br.com.postech.soat.commons.application.command.Command;
-import br.com.postech.soat.commons.application.command.CommandHandler;
-import br.com.postech.soat.commons.application.command.UnitCommandHandler;
-import br.com.postech.soat.commons.application.query.Query;
-import br.com.postech.soat.commons.application.query.QueryHandler;
+import br.com.postech.soat.payment.commons.application.command.Command;
+import br.com.postech.soat.payment.commons.application.command.CommandHandler;
+import br.com.postech.soat.payment.commons.application.command.UnitCommandHandler;
+import br.com.postech.soat.payment.commons.application.query.Query;
+import br.com.postech.soat.payment.commons.application.query.QueryHandler;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;

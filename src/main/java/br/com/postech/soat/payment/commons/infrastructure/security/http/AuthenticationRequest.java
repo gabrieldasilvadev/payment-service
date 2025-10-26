@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.infrastructure.security.http;
+package br.com.postech.soat.payment.commons.infrastructure.security.http;
 
 import jakarta.validation.constraints.NotBlank;
 

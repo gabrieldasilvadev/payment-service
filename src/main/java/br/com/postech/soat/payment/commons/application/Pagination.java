@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.application;
+package br.com.postech.soat.payment.commons.application;
 
 public record Pagination(int page, int size) {
     

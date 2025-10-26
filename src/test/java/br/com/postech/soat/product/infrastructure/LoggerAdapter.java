@@ -1,6 +1,6 @@
-package br.com.postech.soat.product.infrastructure;
+package br.com.postech.soat.payment.product.infrastructure;
 
-import br.com.postech.soat.product.application.adapters.LoggerPort;
+import br.com.postech.soat.payment.product.application.adapters.LoggerPort;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

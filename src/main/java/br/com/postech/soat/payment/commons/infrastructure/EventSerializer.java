@@ -1,6 +1,6 @@
-package br.com.postech.soat.commons.infrastructure;
+package br.com.postech.soat.payment.commons.infrastructure;
 
-import br.com.postech.soat.commons.domain.DomainEvent;
+import br.com.postech.soat.payment.commons.domain.DomainEvent;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

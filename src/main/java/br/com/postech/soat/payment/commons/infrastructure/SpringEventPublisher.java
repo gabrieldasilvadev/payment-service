@@ -1,7 +1,7 @@
-package br.com.postech.soat.commons.infrastructure;
+package br.com.postech.soat.payment.commons.infrastructure;
 
-import br.com.postech.soat.commons.domain.DomainEvent;
-import br.com.postech.soat.commons.domain.EventPublisher;
+import br.com.postech.soat.payment.commons.domain.DomainEvent;
+import br.com.postech.soat.payment.commons.domain.EventPublisher;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 

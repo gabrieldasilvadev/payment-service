@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.domain;
+package br.com.postech.soat.payment.commons.domain;
 
 import java.util.List;
 

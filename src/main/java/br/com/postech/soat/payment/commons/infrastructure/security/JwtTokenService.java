@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.infrastructure.security;
+package br.com.postech.soat.payment.commons.infrastructure.security;
 
 import com.nimbusds.jose.JOSEObjectType;
 import com.nimbusds.jose.JWSAlgorithm;

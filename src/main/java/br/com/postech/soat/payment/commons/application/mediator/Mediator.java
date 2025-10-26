@@ -1,7 +1,7 @@
-package br.com.postech.soat.commons.application.mediator;
+package br.com.postech.soat.payment.commons.application.mediator;
 
-import br.com.postech.soat.commons.application.command.Command;
-import br.com.postech.soat.commons.application.query.Query;
+import br.com.postech.soat.payment.commons.application.command.Command;
+import br.com.postech.soat.payment.commons.application.query.Query;
 
 public interface Mediator {
 

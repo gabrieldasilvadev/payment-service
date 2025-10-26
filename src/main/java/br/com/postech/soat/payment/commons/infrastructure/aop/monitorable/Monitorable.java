@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.infrastructure.aop.monitorable;
+package br.com.postech.soat.payment.commons.infrastructure.aop.monitorable;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

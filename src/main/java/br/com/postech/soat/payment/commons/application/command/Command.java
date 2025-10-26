@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.application.command;
+package br.com.postech.soat.payment.commons.application.command;
 
 public interface Command {
 }

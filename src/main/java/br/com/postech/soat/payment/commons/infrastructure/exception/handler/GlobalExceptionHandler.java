@@ -1,10 +1,10 @@
-package br.com.postech.soat.commons.infrastructure.exception.handler;
+package br.com.postech.soat.payment.commons.infrastructure.exception.handler;
 
-import br.com.postech.soat.commons.api.ErrorResponseDto;
-import br.com.postech.soat.commons.infrastructure.exception.BaseException;
-import br.com.postech.soat.commons.infrastructure.exception.NotFoundException;
-import br.com.postech.soat.commons.infrastructure.exception.ResourceConflictException;
-import br.com.postech.soat.commons.infrastructure.exception.UnprocessableEntityException;
+import br.com.postech.soat.payment.commons.api.ErrorResponseDto;
+import br.com.postech.soat.payment.commons.infrastructure.exception.BaseException;
+import br.com.postech.soat.payment.commons.infrastructure.exception.NotFoundException;
+import br.com.postech.soat.payment.commons.infrastructure.exception.ResourceConflictException;
+import br.com.postech.soat.payment.commons.infrastructure.exception.UnprocessableEntityException;
 import java.util.Collections;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

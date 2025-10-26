@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.api;
+package br.com.postech.soat.payment.commons.api;
 
 import java.util.List;
 

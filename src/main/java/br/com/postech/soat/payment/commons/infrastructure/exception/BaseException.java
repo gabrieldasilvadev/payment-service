@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.infrastructure.exception;
+package br.com.postech.soat.payment.commons.infrastructure.exception;
 
 import lombok.Getter;
 import lombok.Setter;

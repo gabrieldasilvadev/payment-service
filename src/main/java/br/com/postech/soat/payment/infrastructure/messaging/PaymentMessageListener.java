@@ -1,10 +1,10 @@
 package br.com.postech.soat.payment.infrastructure.messaging;
 
-import br.com.postech.soat.customer.domain.valueobject.CustomerId;
-import br.com.postech.soat.order.domain.valueobject.OrderId;
 import br.com.postech.soat.payment.application.command.InitiatePaymentCommand;
 import br.com.postech.soat.payment.application.usecases.InitiatePaymentUseCase;
 import br.com.postech.soat.payment.domain.entity.PaymentMethod;
+import br.com.postech.soat.payment.domain.valueobject.CustomerId;
+import br.com.postech.soat.payment.domain.valueobject.OrderId;
 import br.com.postech.soat.payment.infrastructure.messaging.dto.PaymentRequestedMessage;
 import io.awspring.cloud.sqs.annotation.SqsListener;
 import org.slf4j.Logger;

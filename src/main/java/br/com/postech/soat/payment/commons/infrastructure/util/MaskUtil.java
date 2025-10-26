@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.infrastructure.util;
+package br.com.postech.soat.payment.commons.infrastructure.util;
 
 public class MaskUtil {
 

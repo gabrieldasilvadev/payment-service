@@ -1,10 +1,10 @@
 package br.com.postech.soat.payment.infrastructure.http;
 
-import br.com.postech.soat.openapi.api.PaymentApi;
-import br.com.postech.soat.openapi.model.GetPaymentsPaymentId200ResponseDto;
-import br.com.postech.soat.openapi.model.GetPaymentsPaymentIdStatus200ResponseDto;
-import br.com.postech.soat.openapi.model.PaymentInitiationResultDto;
-import br.com.postech.soat.openapi.model.PostPaymentsRequestDto;
+import br.com.postech.soat.payment.openapi.api.PaymentApi;
+import br.com.postech.soat.payment.openapi.model.GetPaymentsPaymentId200ResponseDto;
+import br.com.postech.soat.payment.openapi.model.GetPaymentsPaymentIdStatus200ResponseDto;
+import br.com.postech.soat.payment.openapi.model.PaymentInitiationResultDto;
+import br.com.postech.soat.payment.openapi.model.PostPaymentsRequestDto;
 import br.com.postech.soat.payment.application.dto.PaymentInitiationResult;
 import br.com.postech.soat.payment.application.usecases.FindPaymentByIdUseCase;
 import br.com.postech.soat.payment.application.usecases.GetPaymentStatusUseCase;
@@ -53,7 +53,7 @@ public class PaymentController implements PaymentApi {
         return ResponseEntity.ok(
             GetPaymentsPaymentIdStatus200ResponseDto.builder()
                 .paymentId(PaymentId.of(paymentId).getValue())
-                .status(br.com.postech.soat.openapi.model.PaymentStatusDto.fromValue(status.name()))
+                .status(br.com.postech.soat.payment.openapi.model.PaymentStatusDto.fromValue(status.name()))
                 .build()
         );
     }

@@ -1,6 +1,6 @@
 package br.com.postech.soat.payment.infrastructure.paymentgateway;
 
-import br.com.postech.soat.commons.infrastructure.aop.monitorable.Monitorable;
+import br.com.postech.soat.payment.commons.infrastructure.aop.monitorable.Monitorable;
 import br.com.postech.soat.payment.application.gateway.GatewayOperationResult;
 import br.com.postech.soat.payment.application.gateway.PaymentGateway;
 import br.com.postech.soat.payment.domain.entity.Payment;

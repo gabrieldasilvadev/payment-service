@@ -1,6 +1,6 @@
 package br.com.postech.soat.payment.application.usecases;
 
-import br.com.postech.soat.commons.infrastructure.aop.monitorable.Monitorable;
+import br.com.postech.soat.payment.commons.infrastructure.aop.monitorable.Monitorable;
 import br.com.postech.soat.payment.application.command.InitiatePaymentCommand;
 import br.com.postech.soat.payment.application.dto.PaymentInitiationResult;
 import br.com.postech.soat.payment.application.gateway.GatewayOperationResult;

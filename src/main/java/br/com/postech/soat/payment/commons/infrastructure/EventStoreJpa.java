@@ -1,8 +1,8 @@
-package br.com.postech.soat.commons.infrastructure;
+package br.com.postech.soat.payment.commons.infrastructure;
 
-import br.com.postech.soat.commons.domain.DomainEvent;
-import br.com.postech.soat.commons.domain.EventStore;
-import br.com.postech.soat.commons.domain.Identifier;
+import br.com.postech.soat.payment.commons.domain.DomainEvent;
+import br.com.postech.soat.payment.commons.domain.EventStore;
+import br.com.postech.soat.payment.commons.domain.Identifier;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;

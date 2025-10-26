@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.application.query;
+package br.com.postech.soat.payment.commons.application.query;
 
 public interface QueryHandler<Q extends Query, R> {
     R handle(Q query);

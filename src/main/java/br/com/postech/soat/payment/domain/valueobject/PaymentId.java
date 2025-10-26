@@ -1,6 +1,6 @@
 package br.com.postech.soat.payment.domain.valueobject;
 
-import br.com.postech.soat.commons.domain.Identifier;
+import br.com.postech.soat.payment.commons.domain.Identifier;
 import java.util.UUID;
 
 public class PaymentId extends Identifier {

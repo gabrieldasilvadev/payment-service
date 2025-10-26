@@ -1,4 +1,4 @@
-package br.com.postech.soat.commons.domain;
+package br.com.postech.soat.payment.commons.domain;
 
 import java.util.UUID;
 import org.apache.commons.lang3.builder.EqualsBuilder;

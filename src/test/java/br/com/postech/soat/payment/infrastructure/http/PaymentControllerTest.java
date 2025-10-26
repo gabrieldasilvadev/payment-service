@@ -1,7 +1,7 @@
 package br.com.postech.soat.payment.infrastructure.http;
 
-import br.com.postech.soat.openapi.model.GetPaymentsPaymentIdStatus200ResponseDto;
-import br.com.postech.soat.openapi.model.PaymentStatusDto;
+import br.com.postech.soat.payment.openapi.model.GetPaymentsPaymentIdStatus200ResponseDto;
+import br.com.postech.soat.payment.openapi.model.PaymentStatusDto;
 import br.com.postech.soat.payment.application.usecases.FindPaymentByIdUseCase;
 import br.com.postech.soat.payment.application.usecases.GetPaymentStatusUseCase;
 import br.com.postech.soat.payment.application.usecases.InitiatePaymentUseCase;

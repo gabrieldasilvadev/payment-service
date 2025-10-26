@@ -1,7 +1,7 @@
 package br.com.postech.soat.payment.infrastructure.messaging;
 
-import br.com.postech.soat.customer.domain.valueobject.CustomerId;
-import br.com.postech.soat.order.domain.valueobject.OrderId;
+import br.com.postech.soat.payment.customer.domain.valueobject.CustomerId;
+import br.com.postech.soat.payment.order.domain.valueobject.OrderId;
 import br.com.postech.soat.payment.application.repositories.PaymentRepository;
 import br.com.postech.soat.payment.application.usecases.ProcessPaymentNotificationUseCase;
 import br.com.postech.soat.payment.domain.entity.Payment;

@@ -21,16 +21,6 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>br.com.postech</groupId>
-            <artifactId>commons-lib</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>br.com.postech</groupId>
-            <artifactId>order-service</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
         </dependency>
@@ -89,8 +79,8 @@
                         <configuration>
                             <inputSpec>${project.basedir}/src/main/resources/static/openapi.yaml</inputSpec>
                             <generatorName>spring</generatorName>
-                            <apiPackage>br.com.postech.soat.openapi.api</apiPackage>
-                            <modelPackage>br.com.postech.soat.openapi.model</modelPackage>
+                            <apiPackage>br.com.postech.soat.payment.openapi.api</apiPackage>
+                            <modelPackage>br.com.postech.soat.payment.openapi.model</modelPackage>
                             <modelNameSuffix>Dto</modelNameSuffix>
                             <output>${project.build.directory}/generated-sources/openapi</output>
                             <addCompileSourceRoot>true</addCompileSourceRoot>

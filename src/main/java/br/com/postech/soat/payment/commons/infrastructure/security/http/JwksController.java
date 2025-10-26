@@ -1,6 +1,6 @@
-package br.com.postech.soat.commons.infrastructure.security.http;
+package br.com.postech.soat.payment.commons.infrastructure.security.http;
 
-import br.com.postech.soat.commons.infrastructure.security.RsaKeyProvider;
+import br.com.postech.soat.payment.commons.infrastructure.security.RsaKeyProvider;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
 import java.util.List;

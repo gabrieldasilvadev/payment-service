@@ -1,7 +1,7 @@
 package br.com.postech.soat.payment.infrastructure.http;
 
-import br.com.postech.soat.customer.domain.valueobject.CustomerId;
-import br.com.postech.soat.order.domain.valueobject.OrderId;
+import br.com.postech.soat.payment.customer.domain.valueobject.CustomerId;
+import br.com.postech.soat.payment.order.domain.valueobject.OrderId;
 import br.com.postech.soat.payment.PaymentServiceApplication;
 import br.com.postech.soat.payment.application.repositories.PaymentRepository;
 import br.com.postech.soat.payment.domain.entity.Payment;
@@ -9,8 +9,8 @@ import br.com.postech.soat.payment.domain.entity.PaymentMethod;
 import br.com.postech.soat.payment.domain.entity.PaymentStatus;
 import br.com.postech.soat.payment.domain.valueobject.PaymentId;
 import br.com.postech.soat.payment.infrastructure.paymentgateway.CheckoutClient;
-import br.com.postech.soat.product.application.adapters.LoggerPort;
-import br.com.postech.soat.product.infrastructure.LoggerAdapter;
+import br.com.postech.soat.payment.product.application.adapters.LoggerPort;
+import br.com.postech.soat.payment.product.infrastructure.LoggerAdapter;
 import java.math.BigDecimal;
 import java.util.UUID;
 import org.junit.jupiter.api.BeforeEach;
